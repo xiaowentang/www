@@ -1,0 +1,194 @@
+@media(min-width:300px){
+  #instance{
+    font-size:14px;
+  }
+  #instance h3{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+@media(min-width:750px){
+  #instance{
+    font-size: 18px;
+  }
+  #instance h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+}
+@media(min-width:1200px){
+  #instance{
+    font-size: 18px;
+  }
+  #instance h3{
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+}
+@media(min-width:1600px){
+  #instance{
+    font-size: 18px;
+  }
+  #instance h3{
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+}
+
+/*----banner---*/
+@media(min-width:300px){
+  #banner{
+    margin-top: 2%;
+    position: relative;
+  }
+  #banner img{
+    width: 100%;
+    height: 80px;
+  }
+  .bar{
+    position: absolute;
+    top:3%;
+    left:-19%;
+    transform: scale(0.5);
+  }
+  .bar h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2482c0;
+  }
+  .bar p{
+    margin-top: -3%;
+    font-size:1rem;
+    font-weight: 500;
+  }
+}
+@media(min-width:750px){
+  #banner{
+    margin-top: 1%;
+  }
+  #banner img{
+    width: 100%;
+    height: auto;
+  }
+  .bar{
+    top:18%;
+    left: 12%;
+    transform: scale(1);
+  }
+  .bar h4{
+    font-size: 1em;
+  }
+  .bar p{
+    font-size: 0.8em;
+  }
+}
+@media(min-width:1000px){
+  #banner{
+    margin-top: 1%;
+  }
+  #banner img{
+    width: 100%;
+    height: auto;
+  }
+  .bar{
+    position: absolute;
+    top:18%;
+    left:18%
+  }
+  .bar h4{
+    font-size: 1.5em;
+    font-weight: 550;
+  }
+  .bar p{
+    margin-top: -2%;
+    font-size: 1rem;
+  }
+}
+@media(min-width:1200px){
+  #banner{
+    margin-top: 1%;
+    position: relative;
+  }
+  #banner img{
+    width: 100%;
+    height: auto;
+  }
+  .bar{
+    position: absolute;
+    top:18%;
+    left:25%;
+    transform: scale(1.2);
+  }
+  .bar h4{
+    font-size: 1.5rem;
+    font-weight: 550;
+  }
+  .bar p{
+    margin-top: -2%;
+    font-size: 0.8rem;
+  }
+}
+@media(min-width:1600px){
+  #banner{
+    margin-top: 1%;
+  }
+  #banner img{
+    width: 100%;
+    height: auto;
+  }
+  .bar{
+    position: absolute;
+    top:32%;
+    left:25%
+  }
+  .bar h4{
+    font-size: 1.5em;
+    font-weight: 550;
+  }
+  .bar p{
+    margin-top: -2%;
+    font-size: 1rem;
+  }
+}
+@media(min-width:1920px){
+  #banner{
+    margin-top: 1%;
+  }
+  #banner img{
+    width: 100%;
+    height: auto;
+  }
+  .bar{
+    position: absolute;
+    top:35%;
+    left:25%;
+    transform: scale(1.2);
+  }
+  .bar h4{
+    font-size: 1.6em;
+    font-weight: 550;
+  }
+  .bar p{
+    margin-top: -2%;
+    font-size: 1.1em;
+  }
+}
+
+
+/*---main---*/
+#main{
+  margin-top: 3%;
+  margin-bottom: 4%;
+}
+#main h3{
+  margin-bottom: 3%;
+}
+#main video{
+  width: 95%;
+}
+.ins1{
+  margin-left: 9%;
+}
+.ins1 p{
+  text-align: center;
+}
